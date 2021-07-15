@@ -1,11 +1,11 @@
-body{
-    background: #E5E5E5;
-    color: #212121
+body {
+  background: #e5e5e5;
+  color: #212121;
 }
 
-.list {
-    list-style:none;
- }
+ul {
+  list-style: none;
+}
 /* цвет основного текста #212121 */
 
 /* вторичний цвет #757575 */
@@ -13,7 +13,29 @@ body{
 /* белий #FFFFFF */
 
 /* синий #2196F3 */
-.logo{
-   color: #2196F3;
- }
+.logo {
+  color: #2196f3;
+}
 
+/*site-nav*/
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.features .features-title {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features .features-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
