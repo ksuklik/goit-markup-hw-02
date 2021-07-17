@@ -1,0 +1,98 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text: #212121;
+  --accent-color: #2196f3;
+  --accent-new-color: #ffffff;
+  --prymary-background-color: #e5e5e5;
+}
+
+body {
+  background-color: var(--prymary-background-color);
+  color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+/* цвет основного текста #212121 */
+
+/* вторичний цвет #757575 */
+
+/* белий #FFFFFF */
+
+/* синий #2196F3 */
+/* fon #E5E5E5*/
+/*fon2  #F5F4FA*/
+
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.site-nav .link {
+  color: var(--title-text);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/* сылка авторизации */
+.auth-link .link:hover,
+.auth-link .link:focus {
+  color: var(--accent-color);
+}
+
+.auth-link .link {
+  color: var(--primary-text-color);
+}
+
+.button {
+  color: var(--title-text);
+  background-color: var(--prymary-background-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.button.primary {
+  color: var(--accent-new-color);
+  background-color: var(--accent-color);
+}
+.button:hover {
+  background-color: var(--accent-color);
+  color: var(--accent-new-color);
+}
+
+.project{
+    background-color: var(--prymary-background-color);
+}
+.project .project-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var(--title-text)
+}
+
+.project .text{
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: var(--primary-text-color)
+}

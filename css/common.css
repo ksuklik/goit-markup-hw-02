@@ -1,0 +1,61 @@
+:root{
+    --primary-text-color: #757575;
+    --title-text:#212121;
+    --accent-color: #2196F3;
+    --accent-new-color: #FFFFFF;
+    --prymary-background-color: #E5E5E5;
+    }
+    
+    
+    body {
+      background-color: var(--prymary-background-color);
+      color: var(--primary-text-color)
+    }
+    
+    ul {
+      list-style: none;
+    }
+    /* цвет основного текста #212121 */
+    
+    /* вторичний цвет #757575 */
+    
+    /* белий #FFFFFF */
+    
+    /* синий #2196F3 */
+    /* fon #E5E5E5*/ 
+    /*fon2  #F5F4FA*/
+    
+    
+    .logo {
+      color:var(--accent-color);
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 31px;
+      letter-spacing: 0.03em;
+    }
+    
+    
+    .site-nav .link {
+      color: var(--title-text);
+    }
+    
+    .site-nav .link:hover, 
+    .site-nav .link:focus {
+      color: var(--accent-color);
+    }
+    
+    .site-nav .link.current{
+      color: var(--accent-color);
+    }
+    
+    /* сылка авторизации */
+.auth-link .link :hover
+.auth-link .link :focus{
+color: var(--accent-color);
+}
+
+.auth-link .link-tel{
+  color: var(--primary-text-color);
+}
