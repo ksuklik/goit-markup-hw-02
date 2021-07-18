@@ -25,10 +25,15 @@ ul {
 /* синий #2196F3 */
 /* fon #E5E5E5*/ 
 /*fon2  #F5F4FA*/
+/* #000000  цвет logo */
+/*  fon footer 2F303A */
 
+.page-header{
+  background-color: var(--accent-new-color);
+}
 
 .logo {
-  color:var(--accent-color);
+  color:#000000;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -36,10 +41,18 @@ ul {
   line-height: 31px;
   letter-spacing: 0.03em;
 }
-
+.logo-bloe {
+  color: var(--accent-color)
+}
 
 .site-nav .link {
   color: var(--title-text);
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover, 
@@ -53,12 +66,18 @@ ul {
 
 /* сылка авторизации */
 .auth-link .link:hover,
-.auth-link .link:focus{
-color: var(--accent-color);
+.auth-link .link:focus {
+  color: var(--accent-color);
 }
 
-.auth-link .link{
+.auth-link .link {
   color: var(--primary-text-color);
+  font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
 }
 
 
@@ -165,3 +184,58 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--primary-text-color);
 }
+
+.footer{
+  background-color: #2F303A;
+}
+.footer-logo{
+  color:var(--accent-new-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.adres{
+  color: var(--accent-new-color);
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+}
+
+.footer .adres-link:hover,
+.footer .adres-link:focus {
+  color: var(--accent-color);
+}
+
+.footer .adres-link {
+  font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
