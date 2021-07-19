@@ -35,11 +35,11 @@ ul {
 .logo {
   color:#000000;
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
+  line-height: 1.19;
+  text-decoration: none;
+  
 }
 .logo-bloe {
   color: var(--accent-color)
@@ -47,12 +47,11 @@ ul {
 
 .site-nav .link {
   color: var(--title-text);
-  font-family: Roboto;
-font-style: normal;
+
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+line-height: 1.14;
+
 }
 
 .site-nav .link:hover, 
@@ -72,12 +71,9 @@ letter-spacing: 0.02em;
 
 .auth-link .link {
   color: var(--primary-text-color);
-  font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
+line-height: 1.14px;
 }
 
 
@@ -86,27 +82,23 @@ letter-spacing: 0.02em;
   background:  #2F303A;
 }
 .banner .banner-subtitle{
-  font-style: normal;
  font-weight: 900;
  font-size: 44px;
- line-height: 60px;
+ line-height: 1.36;
  text-align: center;
- letter-spacing: 0.06em;
  text-transform: uppercase;
  color: var(--accent-new-color);
 }
 /* Кнопка */
 .button{
   color: var(--title-text);
-  background-color: var(--prymary-background-color);
-  font-style: normal;
-font-weight: bold;
+  background-color: var(--prymary-background-color);  
+font-weight: 700;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.87;
 display: flex;
 align-items: center;
 text-align: center;
-letter-spacing: 0.06em;
 }
 
 .button.primary{
@@ -119,19 +111,16 @@ letter-spacing: 0.06em;
   background: #E5E5E5;
 }
 .features .features-title {
-  font-style: normal;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text)
 }
 
 .features .features-description {
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71px;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
@@ -142,10 +131,9 @@ letter-spacing: 0.06em;
   background: #E5E5E5
 }
 .work .work-title{
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text);
@@ -156,30 +144,26 @@ letter-spacing: 0.06em;
   background: #F5F4FA;
 }
 .our-team .our-team-title{
-  font-style: normal;
 font-weight: bold;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--title-text);
 }
 
 .our-team .our-team-name{
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--title-text);
 }
 
 .our-team .our-team-job{
-  font-style: normal;
-font-weight: normal;
 font-size: 16px;
-line-height: 19px;
+line-height: 11.19;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--primary-text-color);
@@ -191,20 +175,18 @@ color: var(--primary-text-color);
 .footer-logo{
   color:var(--accent-new-color);
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
 .adres{
   color: var(--accent-new-color);
 font-family: Roboto;
-font-style: normal;
-font-weight: normal;
+
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 }
 
@@ -214,10 +196,9 @@ letter-spacing: 0.03em;
 }
 
 .footer .adres-link {
-  font-style: normal;
-font-weight: normal;
+ 
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }

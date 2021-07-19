@@ -35,11 +35,10 @@
   .logo {
     color:#000000;
     font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
+    line-height: 1.19;
+    text-decoration: none;
   }
   .logo-bloe {
     color: var(--accent-color)
@@ -47,12 +46,11 @@
   
   .site-nav .link {
     color: var(--title-text);
-    font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+  line-height: 1.14;
+  text-decoration: none;
+  
   }
   
   .site-nav .link:hover, 
@@ -72,37 +70,31 @@
   
   .auth-link .link {
     color: var(--primary-text-color);
-    font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+  line-height: 1.14px;
+  text-decoration: none;
   }
-  
-
-
-
-
+/* футер */
   .footer{
     background-color: #2F303A;
   }
   .footer-logo{
     color:var(--accent-new-color);
     font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
+    text-decoration: none;
   }
   
   .adres{
     color: var(--accent-new-color);
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   }
   
@@ -112,11 +104,12 @@
   }
   
   .footer .adres-link {
-    font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
   }
+
+
   
