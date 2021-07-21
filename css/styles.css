@@ -89,7 +89,7 @@ text-decoration: none;
  color: var(--accent-new-color);
 }
 /* Кнопка */
-.baner .button{
+.banner .button{
   color: var(--title-text);
   background-color: var(--prymary-background-color);  
 font-weight: 700;
